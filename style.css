@@ -1,0 +1,85 @@
+body {
+  padding: 0;
+  margin: 0s;
+  background-color: grey;
+}
+
+.battle-area {
+  padding: 15px;
+  width: 1000px;
+  height: 750px;
+  background-color: rgb(243, 240, 231);
+  position: relative;
+  margin: 0px auto;
+}
+
+.battle-options {
+  border: 6px solid black;
+  width: 990px;
+  height: 200px;
+  bottom: 10px;
+  margin: 0px auto;
+  position: absolute;
+}
+
+.trainer-bench {
+  width: 500px;
+  height: 50px;
+  border-right: 8px solid black;
+  border-bottom: 8px solid black;
+  position: absolute;
+  bottom: 240px;
+  right: 45px;
+}
+
+.opponent-bench {
+  width: 500px;
+  height: 50px;
+  border-left: 8px solid black;
+  border-bottom: 8px solid black;
+  position: absolute;
+  top: 75px;
+  left: 45px;
+}
+
+.trainer-bench .pokeballs {
+  position: absolute;
+  display: flex;
+  right: 80px;
+}
+
+.opponent-bench .pokeballs {
+  position: absolute;
+  display: flex;
+  left: 80px;
+}
+
+.pokeball {
+  width: 35px;
+  height: 35px;
+  border: 2px solid rgb(182, 181, 143);
+  border-radius: 50%;
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
+
+.trainer-bench .triangle {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 60px solid black;
+  border-bottom: 0px solid transparent;
+  position: absolute;
+  bottom: 0px;
+}
+
+.opponent-bench .triangle {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-left: 60px solid black;
+  border-bottom: 0px solid transparent;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
